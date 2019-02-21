@@ -97,60 +97,136 @@
             </div>
             <div class="col-md-4 col-6 pb-5">
               <div class="card">
-                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-2.jpg" alt="Camiseta 1" class="card-img-top">
+                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-2.jpg" alt="Camiseta 2" class="card-img-top">
                 <div class="card-body">
                   <h4>On Motion Live</h4>
                   <p>Perfecta para salidas</p>
                   <div >
                     <button class="btn btn-primary" type="button" name="button">$299<i class="fas fa-shopping-cart"></i></button>
-                    <!--Modal trigger-->
-                    <button class="btn btn-default" type="button" name="buttonDetalles" data-toggle="modal" data-target="#myModal">Detalles</button>
+                    <button class="btn btn-default" type="button" name="buttonDetalles">Detalles</button>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-6 pb-5">
               <div class="card">
-                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-3.jpg" alt="Camiseta 1" class="card-img-top">
+                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-3.jpg" alt="Camiseta 3" class="card-img-top">
                 <div class="card-body">
                   <h4>Underground</h4>
                   <p>Amantes del underground</p>
                   <div >
                     <button class="btn btn-primary" type="button" name="button">$299<i class="fas fa-shopping-cart"></i></button>
-                    <!--Modal trigger-->
-                    <button class="btn btn-default" type="button" name="buttonDetalles" data-toggle="modal" data-target="#myModal">Detalles</button>
+                    <button class="btn btn-default" type="button" name="buttonDetalles">Detalles</button>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-6 pb-5">
               <div class="card">
-                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-4.jpg" alt="Camiseta 1" class="card-img-top">
+                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-4.jpg" alt="Camiseta 4" class="card-img-top">
                 <div class="card-body">
                   <h4>St. Domingo Tigers</h4>
                   <p>Para ir a la playa</p>
                   <div >
                     <button class="btn btn-primary" type="button" name="button">$299<i class="fas fa-shopping-cart"></i></button>
-                    <!--Modal trigger-->
-                    <button class="btn btn-default" type="button" name="buttonDetalles" data-toggle="modal" data-target="#myModal">Detalles</button>
+                    <button class="btn btn-default" type="button" name="buttonDetalles">Detalles</button>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-6 pb-5">
               <div class="card">
-                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-5.jpg" alt="Camiseta 1" class="card-img-top">
+                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-5.jpg" alt="Camiseta 5" class="card-img-top">
                 <div class="card-body">
                   <h4>Una camiseta más</h4>
                   <p>Por si no hubiese otra razón</p>
                   <div >
                     <button class="btn btn-primary" type="button" name="button">$299<i class="fas fa-shopping-cart"></i></button>
-                    <!--Modal trigger-->
-                    <button class="btn btn-default" type="button" name="buttonDetalles" data-toggle="modal" data-target="#myModal">Detalles</button>
+                    <button class="btn btn-default" type="button" name="buttonDetalles">Detalles</button>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+              <!--Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Hipster Ultimate</h4>
+                  <button type="button" class="close" data-dismiss="modal" name="button">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <div class="alert alert-info">
+                    <p class="mb-0"><i class="fas fa-info-circle"></i>Este producto se encuentra agotado</p>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <div class="thumbnail">
+                        <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" alt="Camiseta 1">
+                      </div>
+                    </div>
+                    <div class="col-xs-6">
+                      <div class="content">
+                        <p>Precio: <b>299</b></p>
+                      </div>
+                      <div class="content">
+                        <p>Calificación:
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </p>
+                      </div>
+                      <div class="content">
+                        <span class="badge badge-warning">Hipster</span>
+                        <span class="badge badge-secondary">Deportiva</span>
+                      </div>
+                      <div class="content">
+                        <p class="deseos text-primary"><i class="fas fa-heart"></i></span>Agregar a los deseos</p>
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item"> <a id="descripcion-tab" class="nav-link active" href="#descripcion" data-toggle="tab" role="tab" aria-controls="descripcion" aria-selected="true">Descripción</a></li>
+                    <li class="nav-item"> <a id="comentario-tab"class="nav-link" href="#comentario" data-toggle="tab" role="tab" aria-controls="comentario" aria-selected="true">Comentarios</a></li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="descripcion-tab" id="descripcion">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum
+                      </p>
+                    </div>
+                    <div class="tab-pane fade" id="comentario" role="tabpanel" aria-labelledby="profile-tab">
+                      <div class="card">
+                        <div class="card-header">
+                          Germán Escobar comentó hace 2 años
+                        </div>
+                        <div class="card-body">
+                          Esta camiseta está increíble, la quiero!
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" rows="4" id="comment" placeholder="Ingresa tu comentairo"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" type="button" name="button" data-dismiss="modal">Cerrar</button>
+                  <button class="btn btn-primary" type="button" name="button">Comprar</button>
+                </div>
+              </div>
+
+            </div>
+
           </div>
         </div>
       </div>
